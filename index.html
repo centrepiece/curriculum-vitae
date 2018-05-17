@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+<script src="scripts.js"></script>
+<title>Horizontal Slide</title>
+
+</head>
+<body>
+
+<header>
+
+	<div id="mobileNav"><p>Navigation</p></div>
+
+	<ul id="navContent">
+	<li>David McDonnell</li>
+	<li>Career Objective</li>
+	<li>Education</li>
+	<li>IT Skills</li>
+	<li>Experience</li>
+	<li>Skills</li>
+	<li>Achievements</li>
+	<li>References</li>
+	</ul>
+
+</header>
+
+<div id="controls">
+	<h3>< Click left or right area to move through ></h3>
+</div>
+
+<div id="blueDiv" class="contentDiv" style="position: absolute; background: blue;">
+
+<div>
+	<h1>Career Objective</h1>
+
+	<p>I am a hardworking, determined individual who meets deadlines while ensuring quality. As a consistent learner, inside and outside the classroom, I am continuously fascinated by new technologies and approaches, as well as the mechanics which cause their innovation and success. The future is undefined, constantly evolving and changing as our current actions affect the new tomorrow. My goal is to be a part of this evolution, one step at a time, involved with the next big thing.</p>
+
+</div>
+
+</div>
+
+<div id="redDiv" class="contentDiv" style="position: absolute;background: red;">
+
+	<div>
+<h1>Education</h1>
+
+<h2>Ulster University, Jordanstown</h2>
+<h3>2016-2020</h3>
+
+</div>
+	
+</div>
+
+<div id="greenDiv" class="contentDiv" style="position: absolute;background: green;">
+
+	<div>
+<h1>BSc Honours Interactive Multimedia Design Degree</h1>
+<table id="grades" class="deskTab">
+<tbody>
+<tr>
+<td>
+<p><strong><em>Year One Modules</em></strong></p>
+</td>
+<td>
+<p><em>&nbsp;</em></p>
+</td>
+<td>
+<p><strong><em>Year Two Modules</em></strong></p>
+</td>
+<td>
+<p><em>&nbsp;</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Content Authoring</em></p>
+</td>
+<td>
+<p><em>71</em></p>
+</td>
+<td>
+<p><em>Narrative and Storytelling</em></p>
+</td>
+<td>
+<p><em>Pending</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Academic Study Skills for Multimedia</em></p>
+</td>
+<td>
+<p><em>79</em></p>
+</td>
+<td>
+<p><em>Dynamic Web Authoring Client View</em></p>
+</td>
+<td>
+<p><em>Pending</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Introduction to Communication Design</em></p>
+</td>
+<td>
+<p><em>71</em></p>
+</td>
+<td>
+<p><em>Integrated Multimedia Development</em></p>
+</td>
+<td>
+<p><em>Pending</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Web Authoring</em></p>
+</td>
+<td>
+<p><em>78</em></p>
+</td>
+<td>
+<p><em>Professional Development</em></p>
+</td>
+<td>
+<p><em>Pending</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Managing Web Platforms and Content</em></p>
+</td>
+<td>
+<p><em>66</em></p>
+</td>
+<td>
+<p><em>Dynamic Web Authoring Server View</em></p>
+</td>
+<td>
+<p><em>Pending</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Imaging and Data Visualisation</em></p>
+</td>
+<td>
+<p><em>68</em></p>
+</td>
+<td>
+<p><em>Creative Entrepreneurship</em></p>
+</td>
+<td>
+<p><em>73</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table class="mobileTab">
+<tbody>
+<tr>
+<td>
+<p><strong><em>Year One Modules</em></strong></p>
+</td>
+<td>
+<p><em>&nbsp;</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Content Authoring</em></p>
+</td>
+<td>
+<p><em>71</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Academic Study Skills for Multimedia</em></p>
+</td>
+<td>
+<p><em>79</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Introduction to Communication Design</em></p>
+</td>
+<td>
+<p><em>71</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Web Authoring</em></p>
+</td>
+<td>
+<p><em>78</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Managing Web Platforms and Content</em></p>
+</td>
+<td>
+<p><em>66</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Imaging and Data Visualisation</em></p>
+</td>
+<td>
+<p><em>68</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table class="mobileTab">
+<tbody>
+<tr>
+<td>
+<p><strong><em>Year Two Modules</em></strong></p>
+</td>
+<td>
+<p><em>&nbsp;</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Narrative and Storytelling</em></p>
+</td>
+<td>
+<p><em>Pending</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Dynamic Web Authoring Client View</em></p>
+</td>
+<td>
+<p><em>Pending</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Integrated Multimedia Development</em></p>
+</td>
+<td>
+<p><em>Pending</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Professional Development</em></p>
+</td>
+<td>
+<p><em>Pending</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Dynamic Web Authoring Server View</em></p>
+</td>
+<td>
+<p><em>Pending</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><em>Creative Entrepreneurship</em></p>
+</td>
+<td>
+<p><em>73</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+	
+</div>
+
+<div id="purpleDiv" class="contentDiv" style="position: absolute;background: purple;">
+
+<div>
+
+<h1>Other Qualifications</h1>
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>MTA:</strong> Security Fundamentals - Certified 2017</p>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>
+<p><strong>2009 - 2016</strong> <em>St Patrick&rsquo;s College, Ballymena</em></p>
+<p><em>Secondary Education</em></p>
+</td>
+<td>
+<p><strong>2015 - 2016</strong> A Level Double Award ICT</p>
+<p>Distinction*Distinction*</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>2015 - 2016</strong> A Level Single Award Art and Design</p>
+<p>A*</p>
+</td>
+<td>
+<p><strong>2013-2014</strong> GCSE</p>
+<p>8 subjects A*-C includes Mathematics B, English B, Science B</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+
+
+
+
+<div id="tealDiv" class="contentDiv" style="position: absolute;background: teal;">
+
+<div>
+
+<h1>IT Skills</h1>
+<h3>Operating Systems</h3>
+<ul>
+<li>Microsoft Windows, ranging from XP to 10, including its many menus and Office suite applications which are exclusive to the platform.</li>
+<li>Apple&rsquo;s OS X</li>
+</ul>
+<h3>Development Languages</h3>
+<ul>
+<li>XML, HTML, CSS, JavaScript (JQuery)</li>
+<li>PHP, MySQL</li>
+</ul>
+<h3>Applications</h3>
+<ul>
+<li>Microsoft Office Suite, Word, PowerPoint, Excel, Access</li>
+<li>Adobe Creative Suite, Photoshop, Illustrator, AfterEffects - Use of layers, masks and pen tool.</li>
+</ul>
+
+</div>
+</div>
+
+<div id="steelblueDiv" class="contentDiv" style="position: absolute;background: steelblue;">
+
+<div>
+
+<h1>Work Experience</h1>
+<h2>2015&nbsp;&nbsp;&nbsp;Stephen Reid</h2>
+<p>When I first visited Grafter&rsquo;s, I was initially drawn to their design based work, as well as the coding aspect which considered both website programming and design. Since my placement, the owner, Stephen Reid, created the &lsquo;Ballymena Bear&rsquo;, a popular advertisement campaign for the town of Ballymena. During my short time, I learned a lot in regard to the commercial aspect of the industry, alternative ways of coding, web accessibility, the creative process behind the company&rsquo;s finished products and using frameworks such as Bootstrap and Flexbox.</p>
+<h2>2013&nbsp;&nbsp;&nbsp;Anne Marie McDonnell</h2>
+<p>During GCSEs, I undertook placement at my former primary school, St Mary&rsquo;s. While this was largely unrelated to my chosen field of study, it allowed me to polish my Office suite skills, as well as work on email etiquette. Another simple, yet crucial skill I developed was use of simple machines such as the photocopier and laminator.</p>
+
+</div>
+</div>
+
+<div id="saddlebrownDiv" class="contentDiv" style="position: absolute;background: saddlebrown;">
+
+<div>
+
+<h1>Skills<h1>
+<h3>Personal Development</h3>
+<p>As an individual, I am constantly educating myself in different areas across my sector, following many blog outlets and their social media counterparts. Brand identity and general design are of particular interest to me, and thus when new campaigns emerge, I often like to check the community&rsquo;s opinion. I am also an avid viewer of lecture talks, as they house a better understanding compared to written texts.</p>
+<p>I&rsquo;m currently completing an Ulster Edge Excel Award which offers a scheme entitled &lsquo;Tutoring in Schools&rsquo;. I love to learn as well as teach others; as subject ambassador for IT during A Level I helped GCSE classes, providing a modern perspective whilst also improving communication with fellow students. This opportunity within university offers a higher authority role for engaging as a teacher, opposed to as a student.</p>
+<h3>Design</h3>
+<p>In addition to my studies at university, I also began undertaking freelance work, offering web design and development advertising to a range of businesses. Imperial Chauffeurs Northern Ireland (imperialchauffeursni.com) were one of my first clients who needed a basic informative site with a contact form. This offered a platform for exploring PHP on a virtual, online server which can be applied alongside my further investigative studies in year two of Interactive Multimedia Design.</p>
+
+</div>
+</div>
+
+<div id="darkorangeDiv" class="contentDiv" style="position: absolute;background: peru;">
+
+<div>
+
+
+<h1>Interests &amp; Achievements</h1>
+<ul>
+<li>Slemish Shield Award - Award for outstanding achieving in ICT during secondary education.</li>
+<li>Subject Ambassador and Website Committee.</li>
+</ul>
+
+<h3>Additional Information</h3>
+<p>Full UK Driving License</p>
+
+</div>
+</div>
+
+<div id="firebrickDiv" class="contentDiv" style="position: absolute;background: firebrick;">
+
+<div>
+
+<h1>References </h1>
+
+<table class="deskTab">
+<tbody>
+
+<tr>
+<th>Name</th>
+<td>Dr Peter Nicholl</td>
+<th>Name</th>
+<td>Mr Stephen Reid</td>
+</tr>
+
+<tr>
+<th>Position</th>
+<td>Course Director</td>
+<th>Position</th>
+<td>Owner</td>
+</tr>
+
+<tr>
+<th>Address</th>
+<td>Room 16G11</td>
+<th>Address</th>
+<td>Grafters Media</td>
+</tr>
+
+<tr>
+<td></td>
+<td>School of Computing &amp; Mathmatics</td>
+<td></td>
+<td>72 Shankbridge Rd</td>
+</tr>
+
+<tr>
+<td></td>
+<td>University of Ulster Jordanstown</td>
+<td></td>
+<td>Kells</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Shore Road</td>
+<td></td>
+<td>Ballymena</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Newtownabbey</td>
+<td></td>
+<td>Antrim</td>
+</tr>
+
+<tr>
+<td></td>
+<td>BT37 0QB</td>
+<td></td>
+<td>BT42 3DL</td>
+</tr>
+
+<tr>
+<th>Phone</th>
+<td>028 9036 8910</td>
+<th>Phone</th>
+<td>07545 614765</td>
+</tr>
+<tr>
+<th>Email</th>
+<td>p.nicholl@ulster.ac.uk</td>
+<th>Email</th>
+<td>hello@graftersmedia.com</td>
+</tr>
+</tbody>
+</table>
+
+<table class="mobileTab">
+<tbody>
+
+<tr>
+<th>Name</th>
+<td>Dr Peter Nicholl</td>
+</tr>
+
+<tr>
+<th>Position</th>
+<td>Course Director</td>
+</tr>
+
+<tr>
+<th>Address</th>
+<td>Room 16G11</td>
+</tr>
+
+<tr>
+<td></td>
+<td>School of Computing &amp; Mathmatics</td>
+</tr>
+
+<tr>
+<td></td>
+<td>University of Ulster Jordanstown</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Shore Road</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Newtownabbey</td>
+</tr>
+
+<tr>
+<td></td>
+<td>BT37 0QB</td>
+</tr>
+
+<tr>
+<th>Phone</th>
+<td>028 9036 8910</td>
+</tr>
+<tr>
+<th>Email</th>
+<td>p.nicholl@ulster.ac.uk</td>
+</tr>
+</tbody>
+</table>
+
+<table class="mobileTab">
+<tbody>
+
+<tr>
+<th>Name</th>
+<td>Mr Stephen Reid</td>
+</tr>
+
+<tr>
+<th>Position</th>
+<td>Owner</td>
+</tr>
+
+<tr>
+<th>Address</th>
+<td>Grafters Media</td>
+</tr>
+
+<tr>
+<td></td>
+<td>72 Shankbridge Rd</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Kells</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Ballymena</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Antrim</td>
+</tr>
+
+<tr>
+<td></td>
+<td>BT42 3DL</td>
+</tr>
+
+<tr>
+<th>Phone</th>
+<td>07545 614765</td>
+</tr>
+<tr>
+<th>Email</th>
+<td>hello@graftersmedia.com</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+
+<div id="lightcoralDiv" class="contentDiv" style="position: absolute;background: lightcoral;">
+
+<div>
+
+<h1>Get In Touch</h1>
+
+<i class="material-icons">print</i>
+
+<i class="material-icons">mail</i>
+
+<i id="restartBtn" class="material-icons">refresh</i>
+
+</div>
+</div>
+
+</body>
+</html>

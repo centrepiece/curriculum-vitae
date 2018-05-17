@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', sans-serif;
+	background-color: black;
+}
+
+header {
+	box-sizing: border-box;
+	height: auto;
+	min-height: 12vh;
+	padding: 16px;
+	background-color: rgba(0,0,0,0.2);
+	color: white;
+	margin: 0;
+	position: fixed;
+	z-index: 1;
+	width: 100vw;
+}
+
+header ul {
+	list-style-type: none;
+}
+
+header ul li {
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+	float: left;
+	padding: 10px;
+	border: 0;
+	border-radius: 20px;
+}
+
+/* :not(:first-child) will make brand not clickable */
+
+header ul li:not(:first-child):hover {
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#grades td {
+	padding-right: 25px;
+}
+
+table th {
+	text-align: left;
+}
+
+#controls {
+	position: absolute;
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 1;
+	width: 100vw;
+	height: 100%;
+	-webkit-animation: fadeoutControls 3s normal forwards;
+   animation: fadeoutControls 3s normal forwards;
+}
+
+#controls h3 {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+    color: white;
+}
+
+@keyframes fadeoutControls {
+    0% {
+        opacity: 1;
+    }
+    16% {
+       opacity: 1;
+    }
+    84% {
+       opacity: 0;
+    }
+    100% {
+       opacity: 0;
+       visibility: hidden;
+    }
+}
+
+.contentDiv {
+	height: 100vh;
+	width: 100vw;
+	color: white;
+}
+
+.contentDiv div {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	padding: 15%;
+	color: white;
+}
+
+#lightcoralDiv div {
+	text-align: center;
+}
+
+#lightcoralDiv div i {
+	font-size: 250%;
+	padding: 5%;
+}
+
+#lightcoralDiv div i:hover {
+	cursor: pointer;
+}
+
+#mobileNav, .mobileTab {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+#mobileNav {
+	display: block;
+}
+
+#navContent {
+	display: none;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	height: auto;
+	background-color: rgba(0,0,0,0.5);
+}
+
+header ul li {
+display: block;
+padding: 20px 0px 20px 0px;
+width: 90%;
+}
+
+.deskTab {
+	display: none;
+}
+
+.mobileTab {
+	margin-bottom: 0px;
+	display: block;
+}
+
+
+}
+
+​
