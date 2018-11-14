@@ -1,3 +1,2 @@
-# hello-world
-Just another repository
-This is additional information added.
+# Interactive Curriculum Vitae
+Interactive presentation of CV using jQuery and jQueryUI.
